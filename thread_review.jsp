@@ -1,11 +1,10 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"
 	import="java.util.Map, java.util.Map.Entry"%>
-<%
-	String path = request.getContextPath();
-	String basePath = request.getScheme() + "://"
-			+ request.getServerName() + ":" + request.getServerPort()
-			+ path + "/";
-%>
+<!-- 
+@description A JSP page for reviewing thread stacks in current server. 
+@author Charles Chen
+@date 2014-09-14
+ -->
 <!doctype html>
 <html>
 	<head lang="zh-cn">
@@ -31,6 +30,7 @@
 </style>
 	</head>
 	<body>
+		verev
 		<nav class="navbar navbar-inverse" role="navigation">
 		<div class="container-fluid">
 			<div class="navbar-header">
